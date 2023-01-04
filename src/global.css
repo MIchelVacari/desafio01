@@ -1,0 +1,112 @@
+:root {
+  --white: #fff;
+  --blue: #1E6F9F;
+  --blue100: #4EA8DE;
+  --purple: #8284FA;
+  --purpledark: #5b4669;
+  --gray300: #808080;
+  --gray400: #333333;
+  --gray500: #262626;
+  --gray600: #1a1a1a;
+  --gray800: #6161617c;
+  --gray900: #121214;
+  --red: #E25858;
+}
+
+
+:focus {
+  outline: transparent;
+  box-shadow: 0 0 0 2px var(--purple);
+}
+
+.wrapper {
+  align-items: flex-start;
+  font-size: 16px;
+  border: none;
+  margin-top: 0%;
+}
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+body {
+  background: var(--gray900);
+  text-align: center;
+
+}
+
+form {
+  align-items: flex-start;
+  margin-top: -10px;
+
+}
+
+.contador {
+  color: var(--blue100);
+  display: flex;
+  padding: 1px;
+  margin: 10px auto;
+  width: 50%;
+  justify-content: space-between;
+
+}
+
+
+#tamanho {
+  display: inline;
+  background: var(--gray400);
+  margin-left: 4px;
+  color: var(--white);
+  width: 24px;
+  border-radius: 2rem
+}
+
+.criadas {
+  width: 50%;
+  display: inline-flex;
+
+
+}
+
+/* .concluidas {
+  width: 50%;
+  display: inline-flex; 
+  margin: 0 auto;
+  justify-content: flex-end;
+} */
+
+.formLista {
+  background: var(--gray300);
+  color: var(--white);
+  height: 30px;
+  width: 30%;
+  border-radius: 8px;
+
+}
+
+::placeholder {
+  color: var(--gray400);
+}
+
+.button {
+  background: var(--blue);
+  height: 30px;
+  width: 80px;
+  color: var(--white);
+  margin: 0.5rem;
+  border: none;
+  border-radius: 8px;
+
+  transition: background 0.1s;
+
+}
+
+.button:hover {
+  background: var(--blue100);
+  cursor: pointer;
+}
